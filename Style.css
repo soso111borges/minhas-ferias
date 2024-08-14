@@ -6,7 +6,7 @@ body {
     color: #000000;
 }
 
-/* Cabeçalho */
+. cabecalho
 header {
     background-color: #000000;
     color: #ffffff;
@@ -19,7 +19,7 @@ header img {
     margin-bottom: 10px;
 }
 
-/* Navegação */
+ .navegacao
 nav ul {
     list-style: none;
     padding: 0;
