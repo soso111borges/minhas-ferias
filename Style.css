@@ -13,7 +13,7 @@ header {
 
 .img-fagner {
     max-width: 50%;
-    height: auto;
+    height: low;
 }
 
 nav {
@@ -53,4 +53,5 @@ footer {
     width: 100%;
 }
 
-.img
+.rodape {
+  
