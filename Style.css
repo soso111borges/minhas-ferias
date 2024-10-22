@@ -30,11 +30,16 @@ main {
     padding: 20px;
 }
 
-.produto {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
 }
 
 footer {
