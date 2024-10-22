@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     padding: 10px 20px;
     text-align: center;
 }
@@ -50,4 +51,34 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
 }
