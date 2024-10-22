@@ -53,6 +53,22 @@ footer {
     width: 100%;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 button {
     margin-top: 10px;
     padding: 10px;
@@ -66,6 +82,7 @@ button {
 button:hover {
     background-color: #444;
 }
+
 
 
 
