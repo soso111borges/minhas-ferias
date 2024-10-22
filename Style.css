@@ -8,7 +8,7 @@ body {
 header {
     background-color: #000;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -51,22 +51,6 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin-top: 10px;
-}
-
-input, textarea {
-    margin-top: 5px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
 button {
