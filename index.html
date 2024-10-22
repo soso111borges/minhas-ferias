@@ -3,52 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garro - Corinthians</title>
+    <title>Corinthians Feminino</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Garro</h1>
+        <h1>Corinthians Feminino</h1>
         <nav>
             <ul>
-                <li><a href="#biografia">Biografia</a></li>
-                <li><a href="#jogos">Jogos Recentes</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#jogadoras">Jogadoras</a></li>
                 <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="biografia">
-            <h2>Biografia</h2>
-            <p>Garro, atacante do Sport Club Corinthians Paulista, nasceu em 15 de agosto de 1998. Conhecido por sua velocidade e habilidade, ele é uma promessa do futebol brasileiro.</p>
-            <button id="more-info">Mais Informações</button>
-            <p id="extra-info" style="display: none;">Garro começou sua carreira nas categorias de base do clube e rapidamente se destacou, tornando-se uma parte importante do time principal.</p>
+        <section id="historia">
+            <h2>História do Corinthians Feminino</h2>
+            <p>O time feminino do Corinthians foi fundado em 2016 e, desde então, tem se destacado no cenário do futebol brasileiro, conquistando diversos títulos, incluindo o Campeonato Brasileiro e a Copa do Brasil.</p>
+            <p>A equipe é conhecida por sua garra e determinação, tornando-se uma referência no futebol feminino.</p>
         </section>
 
-        <section id="jogos">
-            <h2>Jogos Recentes</h2>
+        <section id="jogadoras">
+            <h2>Jogadoras Destaques</h2>
             <ul>
-                <li>Corinthians 3 - 1 Flamengo</li>
-                <li>Corinthians 2 - 2 Palmeiras</li>
-                <li>Corinthians 1 - 0 Santos</li>
+                <li>
+                    <h3>Gabi Nunes</h3>
+                    <p>Posição: Atacante</p>
+                </li>
+                <li>
+                    <h3>Adriana</h3>
+                    <p>Posição: Meia</p>
+                </li>
+                <li>
+                    <h3>Goalkeeper</h3>
+                    <p>Posição: Goleira</p>
+                </li>
+                <li>
+                    <h3>Millene</h3>
+                    <p>Posição: Atacante</p>
+                </li>
             </ul>
         </section>
 
         <section id="galeria">
             <h2>Galeria de Imagens</h2>
             <div class="galeria">
-                <img src="https://example.com/imagem1.jpg" alt="Garro em ação">
-                <img src="https://example.com/imagem2.jpg" alt="Garro comemorando">
-                <img src="https://example.com/imagem3.jpg" alt="Garro treinando">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Campe%C3%A3o_Brasileiro_Feminino_-_Corinthians_2019.jpg/800px-Campe%C3%A3o_Brasileiro_Feminino_-_Corinthians_2019.jpg" alt="Corinthians Feminino Campeão">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Corinthians_feminino_2020.jpg/640px-Corinthians_feminino_2020.jpg" alt="Jogadoras do Corinthians">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Corinthians_Feminino_2021.jpg/640px-Corinthians_Feminino_2021.jpg" alt="Corinthians em campo">
             </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Sport Club Corinthians Paulista. Todos os direitos reservados.</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
