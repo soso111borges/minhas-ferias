@@ -45,7 +45,7 @@ main {
 
 footer {
     background-color: #000;
-    color: #ffffff48;
+    color: #e91414c5;
     text-align: center;
     padding: 10px 0;
     position: relative;
@@ -80,7 +80,7 @@ button {
 }
 
 button:hover {
-    background-color: #444;
+    background-color: #e41616;
 }
 
 
